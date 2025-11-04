@@ -25,7 +25,8 @@ function App() {
     fetchUser()
   }, [])
 
-  if (loading) return <div>Loading...</div>   // <-- IMPORTANT
+  if (loading) return <p>Server starting... just a moment </p>
+  // <-- IMPORTANT
 
   return (
     <Routes>
