@@ -9,6 +9,17 @@ import HistoryPage from "./pages/HistoryPage"
 function App() {
   const [user, setUser] = useState(null)
   const [loading, setLoading] = useState(true)
+  const [seconds, setSeconds] = useState(0)
+
+  useEffect(() => {
+    let timer = setInterval(() => {
+      setSeconds(prev => prev + 0.1)
+    }, 100)
+
+    fetchUser().finally(() => {
+      clearInterval(timer)
+    })
+  }, [])
 
   const fetchUser = async () => {
     try {
@@ -21,12 +32,13 @@ function App() {
     }
   }
 
-  useEffect(() => {
-    fetchUser()
-  }, [])
-
-  if (loading) return <p>Server starting... just a moment </p>
-  // <-- IMPORTANT
+  if (loading) {
+    return (
+      <p>
+        Server starting... {seconds.toFixed(1)} seconds
+      </p>
+    )
+  }
 
   return (
     <Routes>
