@@ -89,7 +89,7 @@ Users can authenticate with Google, GitHub, or Facebook, search for images from 
 **👤 Name:** Shravit Sharma  
 **💼 Role:** Full Stack Developer (Assignment Project)  
 **📧 Email:** sharmashravit@gmail.com  
-**🌐 Portfolio (optional):** [https://your-portfolio-link.com](#)
+**🌐 Portfolio (optional):** [https://frontend-el.vercel.app]
 
 ---
 
