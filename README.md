@@ -20,13 +20,6 @@ Users can authenticate with Google, GitHub, or Facebook, search for images from 
 - Axios
 - Tailwind CSS
 
-**Backend**
-- Node.js + Express
-- MongoDB + Mongoose
-- Passport.js (Google, GitHub, Facebook OAuth)
-- express-session
-- Unsplash API Integration
-- CORS, dotenv
 
 **Deployment**
 - Backend → [Render](https://render.com)
@@ -105,75 +98,23 @@ This project was developed as part of a **Full Stack Developer Assignment** demo
 
 ## 🏁 How to Run Locally
 
-**Backend**
 ```bash
 cd server
 npm install
 npm run dev
+```
 
+---
+## 👨‍💻 Author
 
+Shravit  
+Full Stack Developer 🚀  
 
+🌐 Portfolio: https://www.devorbittech.in/  
+🐙 GitHub: https://github.com/shravit12  
 
 ---
 
-## 💼 **Part 2 — Assignment Submission Document (for company)**
+## ⭐ Support
 
-You can either copy this into a Word/PDF or email body when submitting your assignment.
-
----
-
-### **Full Stack Developer Assignment Submission**
-**Candidate:** Shravit Sharma  
-**Email:** sharmashravit@gmail.com  
-**Submission Date:** _[Enter Date]_  
-**Role Applied For:** Full Stack Developer  
-
----
-
-### **Project Title:** Image Search Application
-
----
-
-### **Overview**
-The Image Search App is a full-stack project built as part of the company’s Full Stack Developer assignment.  
-It demonstrates **OAuth-based authentication**, **RESTful API integration**, **database persistence**, and **frontend deployment**.
-
----
-
-### **Key Functionalities**
-
-1. **Authentication System**
-   - OAuth login via Google, GitHub, and Facebook  
-   - Session-based authentication with secure cookies  
-
-2. **Search Feature**
-   - Integrated Unsplash API to search for images  
-   - Displays dynamic image results with pagination  
-
-3. **User History & Analytics**
-   - Stores each user's search history in MongoDB  
-   - Shows global top searches across all users  
-
-4. **Deployment**
-   - Backend hosted on **Render**  
-   - Frontend hosted on **Vercel**  
-   - Database hosted on **MongoDB Atlas**  
-
----
-
-### **Technology Stack**
-
-| Layer | Tools / Frameworks |
-|--------|---------------------|
-| **Frontend** | React (Vite), Tailwind CSS, Axios |
-| **Backend** | Node.js, Express.js, Passport.js |
-| **Database** | MongoDB Atlas |
-| **Auth** | OAuth 2.0 (Google, GitHub, Facebook) |
-| **Deployment** | Render (API) & Vercel (UI) |
-
----
-
-### **Project Architecture**
-
-
-
+If you liked this project, consider giving it a ⭐ on GitHub!
